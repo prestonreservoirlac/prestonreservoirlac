@@ -1,0 +1,116 @@
+/* MENU */
+
+.navbar {
+    background-color: firebrick;
+}
+
+.navbar .nav>li>a {
+    color: bisque;
+}
+
+.navbar .nav>li>a:hover, .navbar .nav>li>a:active, .navbar .nav>li>a:focus {
+    background-color: darkred;
+    color: white;
+}
+
+.dropdown.hover {
+    background-color: darkred;
+    color: white;
+}
+
+.dropdown-menu>li>a {
+    background-color: darkred;
+    color: bisque;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: firebrick; /*floralwhite;*/
+    color: white;
+}
+
+
+/* CONTENT */
+
+.contentwithborder,
+.contentwithborderandheader {
+    background-color: #EAEAEAE6;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+}
+
+p,
+.textcontent {
+    margin: 0px;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-stretch: normal;
+    font-size: 17px;
+    line-height: normal;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(180, 30, 30);
+    text-align: justify;
+}
+
+.indent {
+    padding-left: 25px;
+}
+
+
+/* https://tilomitra.github.io/infinite/ */
+
+/* Make the element's opacity pulse*/
+/* Usage
+    .myElement {
+        animation: opacityPulse 1s ease-out;
+        animation-iteration-count: infinite;
+        opacity: 0; 
+    }
+*/
+
+@-webkit-keyframes opacityPulse {
+    0% {
+        opacity: 0.0;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    100% {
+        opacity: 0.0;
+    }
+}
+
+.opacityPulse-css {
+    animation: opacityPulse 2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    animation-iteration-count: infinite;
+    opacity: 1;
+    text-align: center;
+}
+
+
+/* COPYRIGHT */
+
+#copyright {
+    padding: 8px 8px 8px 8px;
+    background-color: firebrick;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 6px 6px 0 0;
+}
+
+#copyright>p {
+    color: bisque;
+}
+
+#copyright>p>a {
+    color: darksalmon;
+    text-decoration: none;
+}
+
+#copyright>p>a:hover, #copyright>p>a:focus {
+    color: lightgoldenrodyellow;
+    text-decoration: underline;
+}
