@@ -1,0 +1,38 @@
+
+body{font-family:Century Gothic,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#000000;background: url(https://console.sportstg.com/assets/siteDesq/1522/sitebackground/748022EA-9C6B-EA1B-26B69992A435973F.jpeg) 0 0;background-repeat: no-repeat;background-position: top center;background-attachment: fixed;background-color:#000000;}
+img{max-width:100%; height: auto;}
+h1{color:#EC1A2C;}
+h2{color:#EC1A2C; font-size: 28px;}
+h3{color:#EC1A2C;}
+h1 a{color:#EC1A2C;decoration:none;}
+h2 a{color:#EC1A2C;decoration:none;font-size: 28px;}
+h3 a{color:#EC1A2C;decoration:none;}
+.navbar{background-color:#000000;}
+.navbar .nav>li>a{color:#EC1A2C;}
+.navbar .nav>li>a:hover, .navbar .nav>li>a:active, .navbar .nav>li>a:focus{background-color:#EC1A2C;color:#000000;}
+.row5{color:#919191; border-top: solid 2px #202020; background: #2e2e2e; background: -moz-linear-gradient(top,  #2e2e2e 0%, #252525 49%, #1b1b1b 50%, #2d2d2d 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2e2e2e), color-stop(49%,#252525), color-stop(50%,#1b1b1b), color-stop(100%,#2d2d2d)); background: -webkit-linear-gradient(top,  #2e2e2e 0%,#252525 49%,#1b1b1b 50%,#2d2d2d 100%); background: -o-linear-gradient(top,  #2e2e2e 0%,#252525 49%,#1b1b1b 50%,#2d2d2d 100%); background: -ms-linear-gradient(top,  #2e2e2e 0%,#252525 49%,#1b1b1b 50%,#2d2d2d 100%); background: linear-gradient(to bottom,  #2e2e2e 0%,#252525 49%,#1b1b1b 50%,#2d2d2d 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#2d2d2d',GradientType=0 );}
+.row5 a{color:#919191;}
+.fl_left{float:left;}
+#copyright{margin:0 auto; font-size:.8em; padding: 10px 0px}
+.content {margin-bottom: 20px; float: left; width:100%;}
+.contentbox {padding: 10px;}
+.contentwithborder{border: 1px solid #000000; background-color:#EAEAEA}
+.contentwithborder h2{margin: 0px; padding: 5px 10px; color: #EC1A2C}
+.contentwithborderandheader{border: 1px solid #000000; background-color:#EAEAEA}
+.contentwithborderandheader h2{margin: 0px; padding: 5px; background-color: #000000; color: #EC1A2C;}
+.contenttransparent h2 {margin: 0px; padding: 5px 10px; color: #EC1A2C}
+.contentwithhrbelowtitle h2 {margin: 0px; padding: 5px 10px; border-bottom: 1px solid #000000; color: #EC1A2C}
+#Gallery{display:block;width:100%;line-height:1.6em;margin:0;}
+#Gallery li.first {margin-left:0;}
+#Gallery li {display:block;float:left;width:23.4375%;margin:0 0 2.08333% 2.08333%;padding:0;}
+.dropdown:hover .dropdown-menu {display: block;}
+.btn-contact-us, .btn-contact-us:hover, .btn-contact-us:focus, .btn-contact-us:active, .btn-contact-us.active {background-color: #000000;border-color: #000000;color:#EC1A2C;}
+.memberloginscreen {font-family:Century Gothic,"Helvetica Neue",Helvetica,Arial,sans-serif; background: #000000; color: #000000;padding: 12px 15px;font-size: 14px;margin: 0;}
+.memberlogincontent {border: 2px solid #000000;color: #000000;font-size: 12px;background-color:#EAEAEA;padding: 15px 12px;border-top: 0;margin-bottom: 20px;margin: 0;vertical-align: baseline;line-height: 21px;outline: none;}
+.dropdown-menu {border: none; padding: 0;}
+.dropdown-menu>li>a {background-color:#EC1A2C;color:#000000}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {background-color:#000000;color:#EC1A2C}
+.mobmenu-wrap {border-top: 1px solid #000000; border-bottom: 1px solid #000000; margin-bottom: 10px; margin-top: 10px;}
+.mobmenu {background: #000000; padding: 0px;}
+.menuIcon {display: block; height: 16px; width: 16px;}
+
